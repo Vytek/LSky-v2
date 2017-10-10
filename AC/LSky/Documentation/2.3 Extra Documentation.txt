@@ -1,0 +1,65 @@
+
+====================
+  Documentation 2.3
+====================
+
+• Drag the prefab “Assets/AC Assets/LSky/Prefabs/LSky Time Date Manager” into your hierarchy.
+• Drag the prefab “Assets/AC Assets/LSky/Prefabs/LSkyManager” into your hierarchy.
+• Note: Be sure that there are no additional directional lights in the scene.
+
+
+LSky Custom Structs.
+
+The Sky parameters use two custom structures.
+
+LSkyCurve: Allows you to choose between a curve or a value.
+
+CurveMode: Input value type.
+
+FValue: Input float value.
+
+Curve: Input curve.
+
+EvalueateTime: Curve evaluate time.
+
+Value: Output value.
+
+Example:
+
+LSkyCurve floatTest = new LSkyCurve();
+
+void Example()
+{
+	// Get value.
+	Debug.Log(floatTest.Value);
+
+	// Set value
+	floatTest.CurveMode = LSkyCurveMode.floatValue;
+	floatTest.FValue = 1.5f;
+}
+
+LSkyGradient: Allows you to choose between a gradient or a color.
+
+GradientMode: Input value.
+
+Color: Input color.
+
+Gradient: Input gradient.
+
+EvalueateTime: Gradient evaluate time.
+
+ColorValue: Output color.
+
+Example:
+
+LSkyGradient colTest = new LSkyGradient();
+
+void Example()
+{
+	// Get value.
+	Debug.Log(colTest.ColorValue);
+
+	// Set value
+	colTest.GradientMode = LSkyGradientMode.colorValue;
+	colTest.Color = new Color(1,1,1,1);
+}
