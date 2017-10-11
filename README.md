@@ -18,9 +18,9 @@ Basic Dynamic Sky System.
 - LDR and HDR Support.
 - Gamma And Liner Color Space Support.
 
-Support: ac3spp@gmail.com
+Support: acsupp0r@gmail.com
 
 +[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9EXLS6X6XEDJE)
 
-# LSky Pro in December(MIT License and free).
+# LSky V3 Comming Soon.
 
